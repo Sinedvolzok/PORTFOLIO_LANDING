@@ -49,7 +49,6 @@ html, body {
 
 .special-word {
   display: inline-block; 
-  
   filter: blur(1.2px) drop-shadow(0 0 8px #e0fff9);
   transition: filter 0.3s ease;
 }
@@ -59,8 +58,8 @@ html, body {
   color: transparent;
   
   background: 
-    repeating-radial-gradient(#000 0 0.0001%, #fff 0 0.0002%) 50% 0 / 2500px 2500px,
-    repeating-conic-gradient(#000 0 0.0001%, #fff 0 0.0002%) 60% 60% / 2500px 2500px;
+    repeating-radial-gradient(#000 0 0.1%, #fff 0 0.2%) 50% 0 / 2500px 2500px,
+    repeating-conic-gradient(#000 0 0.1%, #fff 0 0.2%) 60% 60% / 2500px 2500px;
   background-blend-mode: difference;
   
   -webkit-background-clip: text;
@@ -178,11 +177,14 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 4px;
+}
+
+.footer-info p {
+  margin: 0;
 }
 
 .contact-text {
-  padding-top: 8px;
   font-size: 15px;
   letter-spacing: 0.5px;
   color: #e0e0e0;

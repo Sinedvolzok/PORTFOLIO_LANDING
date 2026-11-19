@@ -40,7 +40,6 @@
 
             el.style.opacity = v.toFixed(1);
             el.style.transform = `transform3D(0, ${y.toFixed(1)}px,0)`;
-            //el.style.filter = `blur(${ ((1-v)*8).toFixed(1)}px)`;
 
         });
     }
