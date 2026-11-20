@@ -1,4 +1,8 @@
+
+@import url('https://googleapis.com');
+
 :root { color-scheme: dark; }
+
 
 * { box-sizing: border-box; }
 
@@ -21,7 +25,10 @@ html, body {
     opacity: .5;
 }
 
-.track { height: 450vh; position: relative; }
+.track { 
+    height: 450vh; 
+    position: relative; 
+}
 
 .stage {
     position: sticky;
@@ -38,11 +45,12 @@ html, body {
     margin: 0;
 }
 
+
 .line {
     display: block;
+    font-family: "Pixelify Sans", sans-serif;
     font-size: 48px;
     line-height: 1.15;
-    font-weight: 600;
     opacity: 0;
     will-change: opacity, treansform, filter;
 }
@@ -81,7 +89,7 @@ html, body {
 
 @media (max-width: 700px) {
     .line {font-size: 36px; }
-    .text { max-width: none; }
+    .text { max-width: 40ch; }
 }
 
 @media (prefers-reduced-motion: reduce) {
