@@ -89,7 +89,7 @@ html, body {
 
 @media (max-width: 700px) {
     .line {font-size: 36px; }
-    .text { max-width: 40%; }
+    .text { max-width: 80%; }
 }
 
 @media (prefers-reduced-motion: reduce) {
