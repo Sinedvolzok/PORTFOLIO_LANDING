@@ -57,7 +57,7 @@ html, body {
 
 .special-word {
   display: inline-block; 
-  filter: blur(1.2px) drop-shadow(0 0 8px #e0fff9);
+  filter: blur(1.2px) drop-shadow(0 0 8px #e1aeff);
   transition: filter 0.3s ease;
 }
 
