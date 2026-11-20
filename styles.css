@@ -121,8 +121,9 @@ spline-viewer {
 }
 
 .marquee-track span {
-  padding-right: 2rem; /* Adds spacing between the repeated phrases */
-  font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    padding-right: 2rem; /* Adds spacing between the repeated phrases */
+    font-size: 1.5rem;
 }
 
 /* Optional: Pause the text when a user hovers over it */
@@ -347,7 +348,7 @@ spline-viewer {
   font-family: 'Lato', sans-serif;
   font-weight: 500;        /* Bold */
   font-size: 16px;         /* 16 */
-  letter-spacing: -0.02em; /* -2% */
+  letter-spacing: -0.01em; /* -1% */
   fill: #f5f5f5;           /* 000000 */
   text-transform: uppercase;
 }
