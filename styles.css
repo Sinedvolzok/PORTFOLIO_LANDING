@@ -164,6 +164,19 @@ spline-viewer {
 }
 
 .footer-logo {
+    position: absolute;
+    left: 40px; /* Adjust spacing from the left edge */
+    display: flex;
+    align-items: center;
+    width: 76px;
+    height: 24px;
+    background-color: #dcdcdc;
+    -webkit-mask: url('Logo.svg') no-repeat center / contain;
+    mask: url('Logo.svg') no-repeat center / contain;
+}
+
+
+.footer-logo {
   position: absolute;
   left: 40px; /* Adjust spacing from the left edge */
   display: flex;
